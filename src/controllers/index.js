@@ -1,16 +1,5 @@
 import { getConnection } from "../database/db";
 
-// const getAllProducts = async (req, res) => {
-//   try {
-//     const connection = await getConnection();
-//     const result = await connection.query(
-//       "SELECT product.id, product.name, product.url_image, product.price, discount, category.name AS category FROM bsale_test.product INNER JOIN bsale_test.category ON bsale_test.category.id = bsale_test.product.category"
-//     );
-//     res.json(result);
-//   } catch (error) {
-//     res.status(500).send(error.mesage);
-//   }
-// };
 const getProducts = async (req, res) => {
   const { category } = req.params;
   const { name } = req.query;
