@@ -4,26 +4,19 @@ Api construida para el test tecnico de Bsale,
 
 ## Objetivos:
 
-<ul>
-<li>hola</li>
-</ul>
+- Crear API REST conectada con Base de datos MYSQL proporcionada por la empresa **BSale**
 
 ## Dependencias:
 
-<ul>
-  <li>axios:</li>
-  <li>dotenv: para el manejo de variables de entorno</li>
-  <li>express: framework de javascript para trabajar web server</li>
-  <li>promise-mysql: paquete que permitira administrar las consultas a la base de dato MySql de forma sincrona</li>
-</ul>
+- **dotenv:** para el manejo de variables de entorno
+- **express:** framework de javascript para trabajar web server
+- **promise-mysql:** paquete que permitira administrar las consultas a la base de dato MySql de forma sincrona
 
 ## Dependencias de desarrollo:
 
-<ul>
-  <li>babel: converte el codigo de js moderno al estandar en los navegadores</li>
-  <li>morgan:</li>
-  <li>nodemon: permite observar los cambios</li>
-</ul>
+- **babel:** converte el codigo de js moderno al estandar en los navegadores
+- **morgan:** registra las requests por consola
+- **nodemon:** permite observar los cambios
 
 ## Despliege
 
